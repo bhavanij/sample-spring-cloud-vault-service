@@ -1,0 +1,1 @@
+Sample Spring Could Vault Application
