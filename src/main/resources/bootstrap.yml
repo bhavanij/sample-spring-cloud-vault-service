@@ -1,0 +1,7 @@
+spring.cloud.vault:
+    host: vault.agro.services
+    port: 443
+    authentication: TOKEN
+    token: ${vcap.services.vault-service.credentials.token}
+    generic:
+        enabled: false
